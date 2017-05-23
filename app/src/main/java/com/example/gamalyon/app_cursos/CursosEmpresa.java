@@ -44,8 +44,9 @@ public class CursosEmpresa {
         int val=rg.getCheckedRadioButtonId();
         int val2=R.id.o1;
         //si el curso se imparte en las aulas de la empresa de los cursos se agregan un valor extra de 5000 pesos, si no, no.
-        valorCurso=rg.getCheckedRadioButtonId()==R.id.o1 ? valorCurso-descto-desctoCltFrcte+(5000*cantidadAlumnos) : valorCurso-descto-desctoCltFrcte;
+        valorCurso= rg.getCheckedRadioButtonId()==R.id.o1 ? valorCurso-descto-desctoCltFrcte+(5000*cantidadAlumnos) : valorCurso-descto-desctoCltFrcte;
         return valorCurso;
+        //probando cambios finales
     }
 
 }
